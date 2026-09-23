@@ -1,0 +1,25 @@
+li x4 10
+li x5 12
+add x6 x4 x5
+addi x7 x4 -9
+
+
+li x11 'S'
+li x12 'a'
+li x13 'd'
+li x14 'i'
+li x15 'a'
+
+sb x11 0(x0)
+sb x12 1(x0)
+sb x13 2(x0)
+sb x14 3(x0)
+sb x15 4(x0)
+
+beq x20 x21 loop
+jal end
+loop:
+li x10 1
+end:
+li x10 0
+ret

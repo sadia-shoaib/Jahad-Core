@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/test/scala/core/TopTest.scala:5:22: object flatspec is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/test/scala/core/TopTest.scala:7:23: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass TopTest extends AnyFlatSpec with ChiselScalatestTester {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/test/scala/core/TopTest.scala:9:9: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Top" should "run successfully" in {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Top_module_should_execute_all_instructions/Top.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~Top|TypeControl",
+    "duplicate":"~Top|Top/controller:Controller/typeControl:TypeControl",
+    "index":0.2857142857142857
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~Top|TypeControl_1",
+    "duplicate":"~Top|Top/TypeDecode:TypeControl",
+    "index":0.9285714285714286
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Top.InstMem.imem",
+    "fileName":"fibonaciAssembly.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"imem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Top_module_should_execute_all_instructions"
+  }
+]

@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 37b5f83f-66b8-4a87-944d-49ef709e017a __86d8eae3-85b0-40b8-a0a4-91c6db51957f, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.TopTest -- -DwriteVcd=1, Some(__86d8eae3-85b0-40b8-a0a4-91c6db51957f), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__86d8eae3-85b0-40b8-a0a4-91c6db51957f): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2d0322c3-5d81-4ffd-afc2-022560302eda, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"1","parents":[]},"eventTime":1789372414552,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/SignalControl.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/ProgramCounter.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/InstMem.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/DataMem.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/OperandA_sel.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/ALUControl.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/Imm_gen.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/NextPc.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/Top.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/Jalr.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/ALUOP.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/ALU.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/TypeControl.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/Controller.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/AluOpController.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/RegFile.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"1","parents":[]},"eventTime":1789372414752,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"errors":0,"warnings":0,"time":200,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"2","parents":[]},"eventTime":1789372414861,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/test/scala/core/TopTest.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/test/scala/core/imm_genTest.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"2","parents":[]},"eventTime":1789372414966,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"errors":0,"warnings":0,"time":105,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testSelected core.TopTest -- -DwriteVcd=1, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testSelected[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"3","parents":[]},"eventTime":1789372415837,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"3","parents":[]},"eventTime":1789372415870,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"errors":0,"warnings":0,"time":33,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1789372415948,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1789372415970,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"errors":0,"warnings":0,"time":22,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bbee3fc1-5351-4a96-a885-089803d84847, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4f2de486-381d-4c13-b220-511b75c959ec, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2477ca80-9346-4720-887f-be75152e333f, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3fdb8dd4-0a97-4604-a6f9-94aaeb937dfb, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 152ad49e-4559-41b6-8f3e-11d7276af043, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3bd5e97d-8c88-4324-b94e-02381cb11cd1, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Top[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mTopTest:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- Top\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 786 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 6 seconds, 786 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0melapsed time: 10 s, cache 96%, 28 disk cache hits, 1 onsite task[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtCompleteExec 37b5f83f-66b8-4a87-944d-49ef709e017a, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 37b5f83f-66b8-4a87-944d-49ef709e017a, Some(37b5f83f-66b8-4a87-944d-49ef709e017a), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(37b5f83f-66b8-4a87-944d-49ef709e017a): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json response for requestId Some(37b5f83f-66b8-4a87-944d-49ef709e017a): {"status":"Done","channelName":"network-1","execId":"37b5f83f-66b8-4a87-944d-49ef709e017a","commandQueue":["shell"],"exitCode":0}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, cde7c3c8-89b3-46e3-a6ec-c306b40b4830, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b6eb37cc-9acd-418a-b067-e2a70710e00e, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, fd33c278-93ae-41c8-bc71-c56da56c3f49, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m

@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec d66af78e-d20b-42e1-ba37-77b84aede0ab __7be36736-93ea-431a-9609-90db0d06ec99, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly TopTest, Some(__7be36736-93ea-431a-9609-90db0d06ec99), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__7be36736-93ea-431a-9609-90db0d06ec99): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"14","parents":[]},"eventTime":1789371791460,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"14","parents":[]},"eventTime":1789371791481,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"errors":0,"warnings":0,"time":21,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"15","parents":[]},"eventTime":1789371791536,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a7d2f887-51d6-48f3-9661-1e91bcaef625, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/vboxuser/Desktop/Jahad/target/out/jvm/scala-2.12.13/riscv_project/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/vboxuser/Desktop/Jahad/target/out/jvm/scala-2.12.13/riscv_project/test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"15","parents":[]},"eventTime":1789371791790,"message":"Compiling root-test (10%)","total":28,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"15","parents":[]},"eventTime":1789371791790,"message":"Compiling root-test (10%)","total":28,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/test/scala/core/TopTest.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"diagnostics":[{"range":{"start":{"line":6,"character":8},"end":{"line":6,"character":14}},"severity":1,"source":"sbt","message":"value should is not a member of String","relatedInformation":[]}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/Jahad/src/test/scala/core/TopTest.scala:7:9: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "Top" should "run correctly" in {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/home/vboxuser/Desktop/Jahad/src/test/scala/core/TopTest.scala:7:9: value should is not a member of String"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  \"Top\" should \"run correctly\" in {"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"        ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/test/scala/core/TopTest.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"diagnostics":[{"range":{"start":{"line":6,"character":8},"end":{"line":6,"character":14}},"severity":1,"source":"sbt","message":"value should is not a member of String","relatedInformation":[]}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"15","parents":[]},"eventTime":1789371792050,"message":"Compiled root-test","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"errors":1,"warnings":0,"time":514}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(__7be36736-93ea-431a-9609-90db0d06ec99): {"code":-32603,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mNo tests match the patterns: TopTest[0m
+[0m[[0m[31merror[0m] [0m[0mThe following patterns were specified but no tests were found in any subproject:[0m
+[0m[[0m[31merror[0m] [0m[0m  - TopTest[0m
+[0m[[0m[31merror[0m] [0m[0mAvailable tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult d66af78e-d20b-42e1-ba37-77b84aede0ab, Some(d66af78e-d20b-42e1-ba37-77b84aede0ab), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(d66af78e-d20b-42e1-ba37-77b84aede0ab): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(d66af78e-d20b-42e1-ba37-77b84aede0ab): {"code":-33000,"message":""}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d9d3b744-0b42-456e-986d-cd6e6d70c36d, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b917111c-1443-4f19-807e-babe1bb2e185, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 36b365f5-eb34-44af-a60d-0ec17b80642d, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m

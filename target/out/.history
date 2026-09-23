@@ -1,0 +1,55 @@
+1789367040762:testOnly Top
+1789367161801:testOnly AluOpController
+1789367523152:testOnly top
+1789367534380:testOnly Top
+1789370606913:testOnly TopTest
+1789371027959:test:compile
+1789371091838:cd /home/vboxuser/Desktop/Jahad
+1789371131906:clean
+1789371135752:compile
+1789371142599:test
+1789371166572:testOnly TopTest
+1789371334733:testOnly imm_genTest
+1789371723938:testOnly TopTest
+1789372121366:clean
+1789372126197:test :compile
+1789372168888:testOnly TopTest
+1789372224333:testOnly core.TopTest
+1789372282227:testOnly core.imm_gen
+1789372324289:testOnly core.imm_genTest
+1789372413802:testOnly core.TopTest -- -DwriteVcd=1
+1789373988951:testOnly TopTest
+1789374096829:sbt clean
+1789374117071:testOnly core.TopTest
+1789374196385:testOnly core.TopTest -- -DwriteVcd=1
+1789375623828:sbt clean
+1789375663278:clean
+1789375672540:testOnly core.TopTest
+1789376207002:testOnly core.TopTest -- -DwriteVcd=1
+1789376687062:testOnly InstMem_Test
+1789376702977:testOnly core. InstMem_Test
+1789376750214:testOnly core.InstMem_Test
+1789380012101:testOnly core.ControllerTest
+1789380119387:testOnly core.RegFileTest
+1789380453555:testOnly core.DataMem_Test
+1789380983614:testOnly core.TopTest
+1789381146706:testOnly core.TopTest -- -DwriteVcd=1
+1789382035196:testOnly core.topTest
+1789382048701:testOnly core.TopTest
+1789382066089:clean
+1789382077370:testOnly core.TopTest
+1789382352708:testOnly core.TopTest -- -DwriteVcd=1
+1790017523291:testOnly TopTest -- -DwriteVcd=1
+1790019049047:RISCV_Project> compile
+1790019075097:compile
+1790019621191:testOnly TopTest -- -DwriteVcd=
+1790019656477:TestOnly TopTest.core
+1790019673679:TestOnly core/TopTest
+1790019703823:testOnly core.TopTest
+1790019732109:testOnly core.TopTest -- -DwriteVcd=1
+1790187206750:testOnly TopTest -- -DwriteVcd=1
+1790187239754:testOnly core.TopTest -- -DwriteVcd=1
+1790187471442:testOnly core.TopTest
+1790187508403:testOnly core.TopTest -- -DwriteVcd=1
+1790187620402:compile
+1790187682079:testOnly core.TopTest -- -DwriteVcd=1

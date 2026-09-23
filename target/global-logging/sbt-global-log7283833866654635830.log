@@ -1,0 +1,67 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec b0a79a67-6169-436c-9509-3f5ba85107b4 __f7a0d7cb-933b-4019-85fc-1b94634a95aa, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.TopTest -- -DwriteVcd=1, Some(__f7a0d7cb-933b-4019-85fc-1b94634a95aa), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__f7a0d7cb-933b-4019-85fc-1b94634a95aa): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"30","parents":[]},"eventTime":1789382631586,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"30","parents":[]},"eventTime":1789382631614,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Compile"},"errors":0,"warnings":0,"time":28,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"31","parents":[]},"eventTime":1789382631680,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 71e8f8e7-a3eb-47b1-a8c3-d2f93d15464d, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632079,"message":"Compiling root-test (10%)","total":28,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632082,"message":"Compiling root-test (10%)","total":28,"progress":10,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632380,"message":"Compiling root-test (25%)","total":28,"progress":25,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632382,"message":"Compiling root-test (25%)","total":28,"progress":25,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632391,"message":"Compiling root-test (35%)","total":28,"progress":35,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632391,"message":"Compiling root-test (35%)","total":28,"progress":35,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632637,"message":"Compiling root-test (50%)","total":28,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632638,"message":"Compiling root-test (50%)","total":28,"progress":50,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382632731,"message":"Compiling root-test (60%)","total":28,"progress":60,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633142,"message":"Compiling root-test (60%)","total":28,"progress":60,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633220,"message":"Compiling root-test (75%)","total":28,"progress":75,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633220,"message":"Compiling root-test (75%)","total":28,"progress":75,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633301,"message":"Compiling root-test (85%)","total":28,"progress":85,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633303,"message":"Compiling root-test (85%)","total":28,"progress":85,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633372,"message":"Compiling root-test (100%)","total":28,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633373,"message":"Compiling root-test (100%)","total":28,"progress":100,"dataKind":"compile-progress","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b59c9cfc-dabd-48d6-a3c2-b90ec91a6e35, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"31","parents":[]},"eventTime":1789382633520,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"},"errors":0,"warnings":0,"time":1840,"noOp":false}})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testSelected core.TopTest -- -DwriteVcd=1, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testSelected[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"32","parents":[]},"eventTime":1789382633855,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"32","parents":[]},"eventTime":1789382633869,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Compile"},"errors":0,"warnings":0,"time":14,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"33","parents":[]},"eventTime":1789382633921,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"33","parents":[]},"eventTime":1789382633928,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/RISCV/#root/Test"},"errors":0,"warnings":0,"time":7,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 84bb1f54-e886-4752-9b2c-f4177652bb8a, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3d5a7849-fbc3-4755-a7af-7ce429e2b743, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 88e6eb74-e5a6-4f50-a48a-1deb3e9db205, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6442692f-b5b4-46af-92b4-4976d3b818df, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3dc2df25-eff4-4642-8c07-bad57ae7d561, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTop module[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should execute all instructions[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mTopTest:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mTop module\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- should execute all instructions\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 688 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 5 seconds, 688 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0melapsed time: 6 s, cache 89%, 26 disk cache hits, 3 onsite tasks[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtCompleteExec b0a79a67-6169-436c-9509-3f5ba85107b4, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult b0a79a67-6169-436c-9509-3f5ba85107b4, Some(b0a79a67-6169-436c-9509-3f5ba85107b4), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(b0a79a67-6169-436c-9509-3f5ba85107b4): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json response for requestId Some(b0a79a67-6169-436c-9509-3f5ba85107b4): {"status":"Done","channelName":"network-1","execId":"b0a79a67-6169-436c-9509-3f5ba85107b4","commandQueue":["shell"],"exitCode":0}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 77c300f6-13c1-4822-b5de-fe2f0ef0342b, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, eef234b1-2981-4370-ab10-2aaad89cf2c0, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 03f8620c-2420-4d6c-ab8a-b7d2166c9e91, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m

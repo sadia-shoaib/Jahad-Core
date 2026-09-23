@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/riscv_project_2.12-0.1.0-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/InstMem_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/InstMem_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/imm_genTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/imm_genTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/TopTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/TopTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/DataMem_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/DataMem_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/RegFileTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/RegFileTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	core/ControllerTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/vboxuser/Desktop/RISCV/target/out/jvm/scala-2.12.13/riscv_project/test-classes/core/ControllerTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.12.13/riscv_project/riscv_project_2.12-0.1.0-tests.jar[0m

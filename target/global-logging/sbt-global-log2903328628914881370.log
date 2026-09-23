@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 24421cb4-d760-4c00-95b9-491b5cd18228 __c17abdf4-94fa-4842-b76c-2bf0785bcbfe, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(cd /home/vboxuser/Desktop/Jahad, Some(__c17abdf4-94fa-4842-b76c-2bf0785bcbfe), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__c17abdf4-94fa-4842-b76c-2bf0785bcbfe): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bb02d75f-d4cc-42e5-8400-4612f1ab767c, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ID character[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: cd[0m
+[0m[[0m[31merror[0m] [0m[0mExpected <unspecified>[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '@scalaBinaryVersion='[0m
+[0m[[0m[31merror[0m] [0m[0mExpected project ID[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: cd[0m
+[0m[[0m[31merror[0m] [0m[0mcd /home/vboxuser/Desktop/Jahad[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 24421cb4-d760-4c00-95b9-491b5cd18228, Some(24421cb4-d760-4c00-95b9-491b5cd18228), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(24421cb4-d760-4c00-95b9-491b5cd18228): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(24421cb4-d760-4c00-95b9-491b5cd18228): {"code":-33000,"message":""}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7243c90c-1b18-4def-aa17-bdc86e7bc1ef, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 50196374-2da6-4dfc-b4ea-9eba69faf30f, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e12c3b98-b0fb-4637-b1f7-c2877c15af77, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])[0m

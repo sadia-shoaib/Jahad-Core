@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 667db921-f180-4ea0-be19-4602499279bb __a2a385df-8959-48b8-8b7b-2960fe45480a, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly TopTest, Some(__a2a385df-8959-48b8-8b7b-2960fe45480a), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__a2a385df-8959-48b8-8b7b-2960fe45480a): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"3","parents":[]},"eventTime":1789370769627,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"3","parents":[]},"eventTime":1789370769656,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"errors":0,"warnings":0,"time":29,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1789370769716,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1789370769727,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Test"},"errors":0,"warnings":0,"time":11,"noOp":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d2a419aa-1166-45c7-aab0-e94f7471aec3, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[31merror[0m] [0m[0mNo tests match the patterns: TopTest[0m
+[0m[[0m[31merror[0m] [0m[0mThe following patterns were specified but no tests were found in any subproject:[0m
+[0m[[0m[31merror[0m] [0m[0m  - TopTest[0m
+[0m[[0m[31merror[0m] [0m[0mAvailable tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 667db921-f180-4ea0-be19-4602499279bb, Some(667db921-f180-4ea0-be19-4602499279bb), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(667db921-f180-4ea0-be19-4602499279bb): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(667db921-f180-4ea0-be19-4602499279bb): {"code":-33000,"message":""}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 12602123-ccca-43de-a122-deb88b4cb897, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6bb9add3-c6b5-4d8a-85f7-488dcf35eb2d, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0606ab72-a9f1-4601-8fdf-3efe3830b09d, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m

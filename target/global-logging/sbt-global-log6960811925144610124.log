@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 07c49562-deb5-4c62-b8c2-dec9ac3f07c9 __a364f4a0-c1fa-4341-ac55-8ca93077ea84, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly AluOpController, Some(__a364f4a0-c1fa-4341-ac55-8ca93077ea84), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__a364f4a0-c1fa-4341-ac55-8ca93077ea84): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"5","parents":[]},"eventTime":1789367387232,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3cf97923-077d-44bd-b8f8-b7f77c91c15e, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[31merror[0m] [0m[0m${BASE}/src/main/scala/core/SignalControl.scala:56:26: not found: type AluOpController[0m
+[0m[[0m[31merror[0m] [0m[0m    val alOp = Module(new AluOpController)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/AluOpController.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///home/vboxuser/Desktop/Jahad/src/main/scala/core/SignalControl.scala"},"buildTarget":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"diagnostics":[{"range":{"start":{"line":55,"character":26},"end":{"line":55,"character":26}},"severity":1,"source":"sbt","message":"not found: type AluOpController","relatedInformation":[]}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"5","parents":[]},"eventTime":1789367387257,"message":"Compiled root","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/vboxuser/Desktop/Jahad/#root/Compile"},"errors":1,"warnings":0,"time":25}})[0m
+[0m[[0m[31merror[0m] [0m[0msbt.util.CachedCompileFailure$$anon$1: Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.CachedCompileFailure.toException(CachedCompileFailure.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.ActionCache$.cache(ActionCache.scala:185)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$init$$$anonfun$1(Defaults.scala:2306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$3.work(Transform.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$3.work(Transform.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.submit$$anonfun$1$$anonfun$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.submit$$anonfun$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$2(ConcurrentRestrictions.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"sbt.util.CachedCompileFailure$$anon$1: Compilation failed\n\tat sbt.util.CachedCompileFailure.toException(CachedCompileFailure.scala:23)\n\tat sbt.util.ActionCache$.cache(ActionCache.scala:185)\n\tat sbt.Defaults$.$init$$$anonfun$1(Defaults.scala:2306)\n\tat scala.Function1.$anonfun$compose$1(Function1.scala:79)\n\tat scala.Function1.$anonfun$compose$1(Function1.scala:79)\n\tat sbt.std.Transform$$anon$3.work(Transform.scala:79)\n\tat sbt.std.Transform$$anon$3.work(Transform.scala:79)\n\tat sbt.Execute.submit$$anonfun$1$$anonfun$1(Execute.scala:283)\n\tat sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)\n\tat sbt.Execute.work(Execute.scala:294)\n\tat sbt.Execute.submit$$anonfun$1(Execute.scala:283)\n\tat sbt.ConcurrentRestrictions$$anon$4.$anonfun$2(ConcurrentRestrictions.scala:269)\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:75)\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:73)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:840)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(__a364f4a0-c1fa-4341-ac55-8ca93077ea84): {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) sbt.util.CachedCompileFailure$$anon$1: Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) sbt.util.CachedCompileFailure$$anon$1: Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) sbt.util.CachedCompileFailure$$anon$1: Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mNo tests match the patterns: AluOpController[0m
+[0m[[0m[31merror[0m] [0m[0mThe following patterns were specified but no tests were found in any subproject:[0m
+[0m[[0m[31merror[0m] [0m[0m  - AluOpController[0m
+[0m[[0m[31merror[0m] [0m[0mAvailable tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 07c49562-deb5-4c62-b8c2-dec9ac3f07c9, Some(07c49562-deb5-4c62-b8c2-dec9ac3f07c9), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(07c49562-deb5-4c62-b8c2-dec9ac3f07c9): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(07c49562-deb5-4c62-b8c2-dec9ac3f07c9): {"code":-33000,"message":""}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f2bc65cf-4347-4f37-861a-f82073b9aebb, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 29a0d8a5-32ac-41d8-bc37-144e58e8034e, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f2b228dc-fc34-4135-b4f5-7f3c925e0f5a, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m

@@ -1,0 +1,70 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:5:8: not found: object AluOp[0m
+[0m[[0m[31merror[0m] [0m[0mimport AluOp._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:16:30: not found: type Branch[0m
+[0m[[0m[31merror[0m] [0m[0m  val br_module = Module(new Branch)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:21:8: not found: value ALU_ADD[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_ADD) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:24:8: not found: value ALU_SLL[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SLL) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:27:8: not found: value ALU_SLT[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SLT, ALU_BLT) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:27:17: not found: value ALU_BLT[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SLT, ALU_BLT) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:30:8: not found: value ALU_SLTU[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SLTU, ALU_BLTU) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:30:18: not found: value ALU_BLTU[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SLTU, ALU_BLTU) {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:33:8: not found: value ALU_XOR[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_XOR) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:36:8: not found: value ALU_SRL[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SRL) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:42:8: not found: value ALU_OR[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_OR) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:45:8: not found: value ALU_AND[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_AND) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:48:8: not found: value ALU_SUB[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SUB) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:51:8: not found: value ALU_SRA[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_SRA) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:54:8: not found: value ALU_BEQ[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_BEQ) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:57:8: not found: value ALU_BNE[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_BNE) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:60:8: not found: value ALU_BGE[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_BGE) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:63:8: not found: value ALU_BGEU[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_BGEU) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALU.scala:66:8: not found: value ALU_COPY_A[0m
+[0m[[0m[31merror[0m] [0m[0m    is(ALU_COPY_A) {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALUControl.scala:18:28: not found: type InstrDecoder_ALUCtrl_Interface[0m
+[0m[[0m[31merror[0m] [0m[0m    val func = Flipped(new InstrDecoder_ALUCtrl_Interface)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/ALUControl.scala:21:32: not found: type PriorotyEncoder[0m
+[0m[[0m[31merror[0m] [0m[0m  val pri_encoder = Module(new PriorotyEncoder())[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/Top.scala:24:31: not found: type ALUControl[0m
+[0m[[0m[31merror[0m] [0m[0m  val AluControl = Module(new ALUControl)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/vboxuser/Desktop/RISCV/src/main/scala/core/Top.scala:25:31: not found: type ALU[0m
+[0m[[0m[31merror[0m] [0m[0m  val ALU        = Module(new ALU)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m23 errors found[0m
