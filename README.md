@@ -37,7 +37,7 @@ The project is implemented completely in **Chisel**, making the processor hardwa
 
 <p align="center">
 
-<img src="images/risc-v-cycle.png" alt="RISC-V Single Cycle Architecture" width="850"/>
+<img src="images/RiscV DataPath.jpeg" alt="RISC-V Single Cycle Architecture" width="850"/>
 
 </p>
 
